@@ -1,0 +1,52 @@
+# -----------------------------
+# Dependencies
+# -----------------------------
+node_modules/
+
+# -----------------------------
+# Build outputs
+# -----------------------------
+dist/
+build/
+out/
+.next/
+coverage/
+
+# -----------------------------
+# TypeScript
+# -----------------------------
+*.tsbuildinfo
+
+# -----------------------------
+# Environment variables
+# -----------------------------
+.env
+.env.*
+!.env.example
+
+# -----------------------------
+# Logs
+# -----------------------------
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# -----------------------------
+# OS / Editor
+# -----------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# -----------------------------
+# Misc
+# -----------------------------
+.tmp/
+.cache/
+
+sydney_gtfs_static_data/
+timetable_data/
+backend/db
